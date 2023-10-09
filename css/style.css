@@ -36,6 +36,7 @@ body{
     background-size: cover;
     clip-path: polygon(0 0, 50% 16%, 100% 0, 100% 70%, 51% 100%, 0 75%);
     z-index: -1;
+
 }
 .nav{
     --pading-container:0;
@@ -54,18 +55,23 @@ body{
     grid-auto-flow: column;
     grid-auto-columns: max-content;
     gap: 2em;
-
-
+   
 }
+
 .nav_items{
     list-style: none;
 
 }
-.nav_menu{
-    margin-left: auto;
-    cursor: pointer;
-    display: none;
+.nav_links{
+    color: #fff;
+    text-decoration: none;
 }
+.nav_menu{
+    margin-left: 1%;
+    cursor: pointer;
+    
+}
+
 .nav_img{
     display: block;
     width: 30px;
@@ -82,7 +88,7 @@ body{
     grid-auto-rows: max-content;
     align-content: center;
     gap: 1em;
-    padding-bottom: 100px ;
+    padding-bottom: 180px ;
     text-align: center;
 }
 .person_title{
